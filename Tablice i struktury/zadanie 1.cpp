@@ -129,8 +129,8 @@ bool Win(int &PlayerNmbr, char Player1choice) {
     }
     return false;
 }
-char Playerchoice(int nrGracza, char Player1choice) {
-    if (nrGracza == 1) {
+char Playerchoice(int PlayerNmber, char Player1choice) {
+    if (PlayerNmbr == 1) {
         return Player1choice;
     }
     if (Player1choice == 'O') {
